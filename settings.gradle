@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':mixview'
 rootProject.name='My Application'
