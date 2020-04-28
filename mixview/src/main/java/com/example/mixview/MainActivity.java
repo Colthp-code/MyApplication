@@ -9,8 +9,13 @@ import android.widget.LinearLayout;
 public class MainActivity extends AppCompatActivity {
 
     //定义一个访问图片的数组
-    private int[] images = new int[]{R.drawable.java, R.drawable.javaee,
-            R.drawable.swift, R.drawable.ajax, R.drawable.html};
+    private int[] images = new int[]{
+            R.drawable.java,
+            R.drawable.javaee,
+            R.drawable.swift,
+            R.drawable.ajax,
+            R.drawable.html
+    };
     private int currentImg = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

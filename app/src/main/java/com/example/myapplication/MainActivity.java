@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         TextView show = new TextView(this);
         //创建一个按钮
         Button bn = new Button(this);
-        bn.setText(R.string.ok);
+        bn.setText(R.string.OK);
         bn.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 
         //向layout容器中添加TextView
